@@ -12,3 +12,12 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 1em;
+  justify-content: space-evenly;
+  row-gap: 1em;
+}
