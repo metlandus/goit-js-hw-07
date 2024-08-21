@@ -7,8 +7,9 @@ const btnChangeColor = document.querySelector('.change-color');
 const body = document.querySelector('body');
 const spanColor = document.querySelector('.color');
 btnChangeColor.addEventListener('click', () => {
-    body.style.backgroundColor = getRandomHexColor();
-    spanColor.textContent = getRandomHexColor();
+    const newColor = getRandomHexColor();
+    body.style.backgroundColor = newColor;
+    spanColor.textContent = newColor;
 });
 
 // btnChangeColor.onclick = () => {

@@ -21,6 +21,10 @@ body {
   border-radius: 9px;
   }
 
+.btn-delete {
+  background-color: #FF4E4E;
+}
+
 /* Task 1 */
 
 #categories {
@@ -76,4 +80,16 @@ body {
 
 .login-form button {
   align-self: flex-start;
+}
+
+
+/* Task 6 */
+
+#boxes {
+  background-color: #F6F6FE;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin: 1em;
+  flex-wrap: wrap;
 }
